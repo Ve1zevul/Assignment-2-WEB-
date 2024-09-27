@@ -1,0 +1,76 @@
+*{
+    font-family: 'Poppins',sans-serif;
+}
+.navbar{
+    background-color: rgba(201, 104, 104,0.8);
+    backdrop-filter: blur(100%);
+
+}
+.navbar a{
+    font-size: 27px;
+    border-bottom: 3px solid transparent;
+}
+.navbar a:hover,
+.navbar a:active{
+    color: #F1D3CE;
+    border-bottom: 3px solid #F1D3CE;
+    transition: 0.3s;
+}
+.intro-section {
+    background-color: #FADFA1;
+    padding: 100px 0;
+    text-align: center;
+}
+@keyframes fade-up {
+    0% {
+        opacity: 0;
+        transform: translateY(30px) scale(0.9);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0px) scale(1);
+    }
+}
+.intro-section h1 {
+    font-size: 3rem;
+    animation: fade-up 3s;
+    
+}
+.intro-section p{
+    font-size: 20px;
+    animation: fade-up 4s;
+    
+}
+.skills-section {
+    padding: 60px 0;
+    background-color: #FADFA1;
+}
+.skills-section h2 {
+    padding: 60px 0;
+    background-color: #FADFA1;
+    animation: fade-up 4s;
+}
+.skills-section .card {
+    margin: 20px 0;
+    background-color: #F6EACB;
+    animation: fade-up 4s;
+    
+}
+.portfolio-section {
+    background-color: #FFF4EA;
+    padding: 60px 0;
+    animation: fade-up 4s;
+}
+footer {
+    background-color: black;
+    padding-top: 20px;
+}
+
+footer a {
+    color: #333;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #007bff;
+}
